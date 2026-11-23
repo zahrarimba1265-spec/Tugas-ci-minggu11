@@ -13,5 +13,5 @@ jobs:
       - name: Siapkan .env dari contoh
         run: cp .env.example .env
       - name: Validasi file compose
-        run: docker compose confiq -q
+        run: docker compose config -q
 
